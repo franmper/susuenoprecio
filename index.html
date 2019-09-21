@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tarjetas</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,800|Lato:400,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="precioIn">
+            <h1 class="tit">Precios Tarjetas</h1>
+            <form>
+                <input type="text" placeholder="Precio a financiar" class="input" id="precio">
+                <br>
+                <input type="text" placeholder="Cuotas" class="input" id="cuotas">
+                <br>
+                <button class="btn" id="visa">Visa, MC, AMEX</button>
+                <button class="btn" id="nar">Naranja</button>
+                
+            </form>
+        </div>
+        
+        <div id="outp">
+            <div class="precioOu">
+                <h2 class="tit">Precio Financiado</h2>
+                <p class="st">$ <span id='fin'></span></p>
+                <h2 class="tit">Valor Cuota</h2>
+                <p class="st" id="valCt"><span id="ct"></span> de $<span id="val"></span></p>
+            </div>
+            <div class="pos">
+                <h2 class="tit">Posnet a utilizar</h2>
+                <p class="st" id="posnet"></p>
+            </div>
+        </div>
+        
+        <div id="info">
+            <h2 class="tit">Tarjetas de Debito</h2>
+            <p class="st">Utilizar Todo Pago habilitando el pago electronico</p>
+            <h2 class="tit">Tarjetas de Credito en 1 Pago</h2>
+            <p class="st">Utilizar Naranja POS</p>
+        </div>
+      
+    </div>
+
+
+    
+    <script src="main.js"></script> 
+</body>
+</html>

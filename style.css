@@ -1,0 +1,111 @@
+:root {
+    --pryColor: #000;
+    --secColor: #fafafa;
+    --thrColor: #d1d1d1;
+    --pryFont: 'Heebo', sans-serif;
+    --secFont: 'Lato', sans-serif;
+}
+
+
+body {
+    background-color: var(--secColor);
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    
+}
+
+#outp {
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+
+#info {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 2px solid var(--thrColor);
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    background-color: var(--thrColor);
+    
+}
+
+.precioIn {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--thrColor);
+    padding: 15px;
+}
+
+.precioOu {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--pryColor);
+    padding: 5px;
+}
+
+.pos {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--thrColor);
+    padding: 5px;
+}
+
+.tit {
+    font-family: var(--pryFont);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.st {
+    font-family: var(--secFont);
+    font-size: 18px;
+}
+
+.input {
+    display: block;
+    width: 68%;
+    border-style: none;
+    border-radius: 3px;
+    background-color: var(--thrColor);
+    padding: 10px;
+    margin: 5px 0px;
+    font-family: var(--secFont);
+    font-size: 15px;
+}
+
+.input:focus {
+    font-size: 20px;
+    border-style: none;
+    
+    transition: 0.1s ease-in-out;
+}
+
+.btn {
+    
+    margin-top: 5px;
+    border-style: none;
+    background-color: var(--thrColor);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: var(--pryFont);
+    font-weight: 800;
+    border: 1px solid var(--pryColor);
+}
+
+.btn:hover, .btn:target {
+    background-color: var(--pryColor);
+    color: var(--thrColor);
+}
+
