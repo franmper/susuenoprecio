@@ -19,12 +19,12 @@ function calcularVMA (e) {
         document.getElementById('ct').innerHTML = cuotas;
         document.getElementById('val').innerHTML = fin / cuotas;
         document.getElementById('posnet').innerHTML = 'Todo Pago, Ahora 6';
-    } else if (cuotas == 9) {
+    } else if (cuotas == 12) {
         var fin = document.getElementById('fin').innerHTML = precio / 0.7702;
         document.getElementById('ct').innerHTML = cuotas;
         document.getElementById('val').innerHTML = fin / cuotas;
         document.getElementById('posnet').innerHTML = 'Todo Pago, Ahora 12';
-    } else if (cuotas == 12) {
+    } else if (cuotas == 18) {
         var fin = document.getElementById('fin').innerHTML = precio / 0.7218;
         document.getElementById('ct').innerHTML = cuotas;
         document.getElementById('val').innerHTML = fin / cuotas;
