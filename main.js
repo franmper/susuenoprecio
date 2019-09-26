@@ -61,6 +61,11 @@ function calcularN (e) {
         document.getElementById('ct').innerHTML = cuotas;
         document.getElementById('val').innerHTML = fin / cuotas;
         document.getElementById('posnet').innerHTML = 'Naranja Pos';
+    } else if (cuotas == 11) {
+        var fin = document.getElementById('fin').innerHTML = precio / 0.8670;
+        document.getElementById('ct').innerHTML = cuotas;
+        document.getElementById('val').style.display = 'none';
+        document.getElementById('posnet').innerHTML = 'Naranja Pos, Zeta (Hasta 3 cuotas sin interés en el resumen)';
     } 
     
 }
